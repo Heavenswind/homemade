@@ -1,0 +1,432 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background-color: #FCFCFC;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  -webkit-font-smoothing: antialiased;
+  font-weight: 300;
+}
+p {
+  font-family: "Vollkorn", "Palotino Linotype", serif;
+}
+#logo {
+  height: 35px;
+  margin-top: 7px;
+  padding-left: 10px;
+}
+a {
+  color: #BD4932;
+}
+a:hover {
+  color: #d16651;
+}
+.navbar-default {
+  background-color: #BD4932;
+  border: 0px;
+}
+.navbar-default .navbar-toggle {
+  border: 0px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: transparent;
+  box-shadow: none;
+}
+.navbar-default .navbar-collapse .nav,
+.navbar-default .navbar-form .nav {
+  text-align: left;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover {
+  color: #e6e6e6;
+}
+.navbar-default .navbar-nav .open a:focus {
+  color: #ffffff;
+  background-color: #BD4932;
+}
+.navbar-default .navbar-nav .dropdown-menu {
+  background-color: #BD4932;
+}
+.navbar-default .navbar-nav .dropdown-menu a:hover {
+  background-color: #cc543d;
+}
+.navbar-default .navbar-nav li a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav li a:hover {
+  color: #e6e6e6;
+}
+.form {
+  padding: 20px;
+}
+.form-control {
+  margin: 0 auto;
+  height: 40px;
+  font-size: 21px;
+  border-radius: 1px;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: #BD4932;
+  box-shadow: none;
+  outline: 0 none;
+}
+row-no-padding [class*="col-"] {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.btn {
+  border-radius: 0px;
+}
+pre {
+  font-family: "Vollkorn", "Palotino Linotype", serif;
+  background-color: transparent;
+  font-size: 16px;
+  border: 0px;
+  border-radius: 0px;
+  line-height: 2;
+  font-weight: normal;
+}
+.btn-primary {
+  background-color: #BD4932;
+  border: 1px transparent solid;
+}
+.btn-primary:hover {
+  background-color: #953927;
+  border: 1px transparent solid;
+}
+.btn-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+.btn-default:hover {
+  background-color: transparent;
+  border-color: transparent;
+}
+.lead {
+  font-size: 1.7em;
+  font-weight: 400;
+  line-height: 1.6em;
+  font-family: "Vollkorn", "Palotino Linotype", serif;
+  text-rendering: optimizeLegibility;
+}
+.intro-header {
+  /*background-image: url('/img/jumbotron.jpg');*/
+  background-image: url('/img/bg2.jpg');
+  padding-bottom: 50px;
+  text-align: center;
+  color: #ffffff;
+  background-size: cover;
+}
+.body-header {
+  padding-bottom: 50px;
+  background-size: cover;
+}
+.body-header h1 {
+  text-align: center;
+}
+.body-message {
+  position: relative;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.meal-card {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 50px;
+  background-size: cover;
+  background-color: #FCFCFC;
+}
+.meal-card img {
+  width: 100%;
+  height: 80%;
+}
+.meal-card h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.meal-card h3 a {
+  color: black;
+}
+.meal-card h3 a:hover {
+  text-decoration: none;
+}
+.meal-card .data {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+.meal-card .data .btns {
+  text-align: right;
+}
+.meal-card .btn {
+  color: white;
+}
+.meal-card a {
+  color: #BD4932;
+}
+.meal-card a:hover {
+  text-decoration: none;
+}
+.meal-card .dish_name a {
+  color: black;
+}
+.meal-card .description {
+  font-size: 20px;
+}
+.category-card {
+  width: 100%;
+  height: 250px;
+}
+.category-card img {
+  width: 100%;
+  height: 80%;
+}
+.category-card h3 {
+  text-align: center;
+  color: white;
+}
+.intro-message {
+  position: relative;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+.intro-message p {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.intro-message > h1 {
+  margin: 0;
+  font-size: 5em;
+}
+.list-inline > li {
+  padding: 0px;
+}
+legend {
+  border-bottom: 0px;
+}
+@media (max-width: 767px) {
+  .intro-message {
+    padding-bottom: 15%;
+  }
+  .intro-message > h1 {
+    font-size: 3em;
+  }
+}
+.content-section-a {
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+.section-heading {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.list-inline {
+  text-align: center;
+}
+.dish-info {
+  padding: 10px;
+  background-color: white;
+}
+.chef-info {
+  background-color: white;
+  padding: 10px;
+}
+.chef-info .chef-description {
+  margin-top: 20px;
+  text-align: center;
+}
+.chef-info .chef-description img {
+  width: 50%;
+  border-radius: 50%;
+}
+.chef-info .chef-description h1,
+.chef-info .chef-description h2,
+.chef-info .chef-description h3,
+.chef-info .chef-description h4,
+.chef-info .chef-description h5,
+.chef-info .chef-description h6 {
+  margin: 0px;
+  margin-top: 5px;
+}
+.description {
+  font-weight: normal;
+}
+.requests,
+.current {
+  background-color: white;
+  padding: 30px 10px;
+}
+.requests h1,
+.requests h2,
+.requests h3,
+.requests h4,
+.requests h5,
+.requests h6,
+.current h1,
+.current h2,
+.current h3,
+.current h4,
+.current h5,
+.current h6 {
+  margin: 0px;
+}
+#wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -60px;
+  padding: 0 0 100px;
+  background-color: #ebebeb;
+}
+.navbar {
+  border-radius: 0px !important;
+  margin-bottom: 0px !important;
+}
+#footer {
+  height: 60px;
+  background-color: #333333;
+}
+#footer a {
+  color: #eeeeee;
+}
+#footer a:hover {
+  color: brigthen(#eeeeee,10%);
+}
+.chef-container {
+  padding: 30px 10px;
+  background-color: white;
+}
+.price {
+  color: #c2c2c2;
+}
+.description_box {
+  background-color: white;
+}
+.category .category-card {
+  background-color: rgba(0,0,0,0.3);
+  background-blend-mode: overlay;
+}
+.category .category-card:hover {
+  background-color: transparent;
+}
+.category h3 {
+  padding-top: 90px;
+}
+.dish_jumbotron {
+  width: 100%;
+}
+.map-bubble {
+  text-align: center;
+}
+.chef-bubble-img {
+  width: 100px;
+  border-radius: 50%;
+}
+.offline {
+  color: #bb0000;
+}
+.online {
+  color: green;
+}
+.hide {
+  display: none;
+}
+.cook_profile_img {
+  width: 100%;
+  border-radius: 50%;
+}
+.center {
+  text-align: center;
+}
+.under_5_star_rating_color {
+  margin: 0px;
+  color: #dfb532;
+}
+.under_3_star_rating_color {
+  margin: 0px;
+  color: #910707;
+}
+.rangeslider__value-bubble {
+  border: 1px solid #ccc;
+  display: block;
+  padding: 5px;
+  position: absolute;
+  bottom: 100%;
+  margin-bottom: 25px;
+  width: 75px;
+  margin-left: -38px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: white;
+}
+.rangeslider__value-bubble:before,
+.rangeslider__value-bubble:after {
+  border-width: 11px;
+  border-style: solid;
+  border-color: transparent;
+  content: "";
+  display: block;
+  margin: auto;
+  width: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.rangeslider__value-bubble:before {
+  border-top-color: #ccc;
+  border-bottom-width: 0;
+  bottom: -11px;
+}
+.rangeslider__value-bubble:after {
+  border-top-color: #fff;
+  border-bottom-width: 0;
+  bottom: -10px;
+}
+.error-message {
+  color: #BD4932;
+  font-weight: 600;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+color: #fff;
+background-color: #BD4932;
+border-color: #BD4932;
+}
+#authMessage {
+  color: white;
+}
+@media screen and (min-width: 768px) {
+  .equal, .equal > div[class*='col-'] {  
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      flex:1 0 auto;
+  }
+}
